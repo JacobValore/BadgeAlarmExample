@@ -1,0 +1,14 @@
+{
+	"name": "AlarmsBadgeExample",
+	"description": "Example of updating the badge number every 1 minute.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {},
+	"permissions": [
+		"storage",
+		"alarms"
+	]
+}
